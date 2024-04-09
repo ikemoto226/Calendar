@@ -1,0 +1,32 @@
+#calendar {
+  max-width: 300px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); /* 7列のグリッド */
+  gap: 2px; /* グリッドアイテム間の隙間 */
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.weekday, .day {
+  text-align: center;
+  margin: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 追加するスタイル */
+.day {
+  height: 40px; /* 各日の高さ */
+  background-color: #fff; /* 背景色を白に設定 */
+}
+
+.day.today {
+  background-color: yellow;
+}
+
+/* 曜日ヘッダーのスタイル */
+.weekday {
+  height: 30px; /* ヘッダーの高さ */
+  font-weight: bold;
+}
