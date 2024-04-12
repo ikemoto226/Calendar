@@ -1,7 +1,7 @@
 steps:
   # ステップ1: ソースコードのクローン
   - name: 'gcr.io/cloud-builders/git'
-    args: ['clone', 'https://github.com/ユーザー名ikemoto226/Calendar']
+    args: ['clone', 'https://github.com/ikemoto226/Calendar']
 
   # ステップ2: Dockerイメージのビルド
   - name: 'gcr.io/cloud-builders/docker'
