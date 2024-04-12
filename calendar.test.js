@@ -24,7 +24,7 @@ describe('Simple Calendar', () => {
   test('カレンダーがDOMに存在する', () => {
     // ここでDOMを手動で構築する
     const calendarEl = document.getElementById('calendar');
-    calendarEl.innerHTML = '<div class="day"></div>'; // 例として一つの日付要素を追加
+    calendarEl.innerHTML = '<div class="day"></div>'; // 例として一つの日付要素を追加する
 
     // カレンダーの日付が正しくレンダリングされているかを確認する
     const days = calendarEl.getElementsByClassName('day');
