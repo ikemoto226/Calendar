@@ -2,7 +2,7 @@
 FROM nginx:alpine
 
 # 静的ファイルをコンテナ内のNginxの提供ディレクトリにコピー
-COPY ./calendar /usr/share/nginx/html
+COPY ./ /usr/share/nginx/html
 
 # ポート80を開放
 EXPOSE 80
