@@ -26,7 +26,7 @@ describe('Simple Calendar', () => {
     const calendarEl = document.getElementById('calendar');
     calendarEl.innerHTML = '<div class="day"></div>'; // 例として一つの日付要素を追加する
 
-    // カレンダーの日付が正しくレンダリングされているかを確認する
+    // カレンダーの日付が正しくレンダリングされているかを確認する。
     const days = calendarEl.getElementsByClassName('day');
     expect(days.length).toBeGreaterThan(0);
   });
