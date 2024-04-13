@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: calendar-container
-        image: gcr.io/$PROJECT_ID/calendar-app:latest
+        image: gcr.io/arched-premise-419714/calendar-app:latest
         ports:
         - containerPort: 80
